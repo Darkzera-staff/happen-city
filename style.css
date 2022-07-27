@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,800);
+@import url(allfont.ru/cache/css/pt-sans48b6.html?fonts=pt-sans);
+@import url(allfont.ru/cache/css/roboto-thinfef0.html?fonts=roboto-thin);
+
+
+ * {
+	margin: 0;
+	padding: 0;
+	font-family:'PT Sans',sans-serif;
+ }
+
+html { 
+	cursor: url("img/cur/arrow.html"), auto;
+}
+
+ol,ul { list-style:none; }
+
+body {
+
+	padding: 0;
+	background: #f9f9f9;
+
+}
+
+::-webkit-scrollbar {
+background: #252525;
+}
+
+::-webkit-scrollbar {
+	width: 10px;height: 0;
+
+}
+
+::-webkit-scrollbar-thumb {
+	background: #bb1c1c;
+}
+
+
+::selection {
+	background: #e41e4a;
+	color: #fff;
+}
+
+ 
+
+a {
+	text-decoration: none;
+	color: #fff;
+	cursor: url("img/cur/Link%20Select.html"), auto;
+}
+
+#artrp {
+	margin-left: 100px;
+	padding-top: 160px;
+
+}
+
+img {	
+	cursor: url("img/cur/arrow.html"), auto;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #cacaca;
+	cursor: url("img/cur/Link%20Select.html"), auto;
+}
